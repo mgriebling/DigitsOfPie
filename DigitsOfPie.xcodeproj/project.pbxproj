@@ -11,6 +11,7 @@
 		2FAF3919225CBA65001F968A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAF3918225CBA65001F968A /* ViewController.swift */; };
 		2FAF391B225CBA66001F968A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FAF391A225CBA66001F968A /* Assets.xcassets */; };
 		2FAF391E225CBA66001F968A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FAF391C225CBA66001F968A /* Main.storyboard */; };
+		2FAF3927225CBB6A001F968A /* Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAF3926225CBB6A001F968A /* Integer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		2FAF391D225CBA66001F968A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2FAF391F225CBA66001F968A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FAF3920225CBA66001F968A /* DigitsOfPie.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DigitsOfPie.entitlements; sourceTree = "<group>"; };
+		2FAF3926225CBB6A001F968A /* Integer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Integer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				2FAF3918225CBA65001F968A /* ViewController.swift */,
 				2FAF391A225CBA66001F968A /* Assets.xcassets */,
 				2FAF391C225CBA66001F968A /* Main.storyboard */,
+				2FAF3926225CBB6A001F968A /* Integer.swift */,
 				2FAF391F225CBA66001F968A /* Info.plist */,
 				2FAF3920225CBA66001F968A /* DigitsOfPie.entitlements */,
 			);
@@ -90,7 +93,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1320;
 				ORGANIZATIONNAME = "Computer Inspirations";
 				TargetAttributes = {
 					2FAF3912225CBA65001F968A = {
@@ -133,6 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FAF3927225CBB6A001F968A /* Integer.swift in Sources */,
 				2FAF3919225CBA65001F968A /* ViewController.swift in Sources */,
 				2FAF3917225CBA65001F968A /* AppDelegate.swift in Sources */,
 			);
@@ -178,6 +182,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -210,6 +215,7 @@
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -239,6 +245,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -264,6 +271,7 @@
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -272,6 +280,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = DigitsOfPie/DigitsOfPie.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 37VFB869JC;
@@ -291,6 +300,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = DigitsOfPie/DigitsOfPie.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 37VFB869JC;
